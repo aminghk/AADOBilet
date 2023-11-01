@@ -18,7 +18,7 @@ module.exports = {
         communities: "url('/src/assets/img/communities.jpg')",
         theaters: "url('/src/assets/img/theaters.jpg')",
         concerts: "url('/src/assets/img/concerts.jpg')",
-        "footer-texture": "url('/img/footer-texture.png')",
+        statistics: "url('/src/assets/img/statistics.jpg')",
       },
     },
   },
