@@ -1,6 +1,6 @@
 function Categories() {
   return (
-    <div>
+    <div className="my-0 mx-auto max-w-7xl">
       <h3 className="uppercase before:bg-color-myrtle-green before:w-1 before:h-4 before:block  flex before:mr-5 p-5 items-center font-bold text-2xl text-[#373737]">
         events by categories
       </h3>
