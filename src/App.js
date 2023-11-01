@@ -1,15 +1,11 @@
 import "./App.css";
-import HeaderView from "./components/Header/HeaderView";
-import React from 'react';
-import SliderComp from './components/slidercomp/SliderComp';
-
-
+import React from "react";
+import Categories from "./components/Categories";
 
 function App() {
   return (
-    <div className="App">
-      <HeaderView />;
-      <SliderComp />
+    <div>
+      <Categories />
     </div>
   );
 }
