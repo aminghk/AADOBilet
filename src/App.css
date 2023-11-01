@@ -13,3 +13,27 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   border-radius: 100px;
   cursor: pointer;
 }
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.artist-card {
+  box-shadow: 8px 8px 13px 1px rgba(0, 0, 0, 0.5);
+}
+
+.artist-card>div {
+  transition: opacity 250ms ease, transform 400ms ease-in-out;
+  transition-delay: 0ms;
+  transform: translateY(250px);
+}
+
+.artist-card:hover>div {
+  transition-delay: 160ms;
+  opacity: 0.85;
+  transform: translateY(0);
+}
