@@ -8,7 +8,7 @@ import SliderComp from './components/slidercomp/SliderComp';
 function App() {
   return (
     <div className="App">
-      <HeaderView />;
+      <HeaderView />
       <SliderComp />
     </div>
   );
