@@ -6,7 +6,7 @@ const HeaderMenu = () => {
     { name: "Gift Cards", link: "/" },
     { name: "Sell", link: "/" },
     { name: "My Tickets", link: "/" },
-    { name: "Login", link: "/" },
+    { name: "Login", link: "/login" },
   ];
   let [open, setOpen] = useState(false);
 
@@ -47,7 +47,9 @@ const HeaderMenu = () => {
               </a>
             </li>
           ))}
-          <Button>Sign Up</Button>
+          <a href="/login">
+            <Button>Sign Up</Button>
+            </a>
         </ul>
       </div>
     </div>

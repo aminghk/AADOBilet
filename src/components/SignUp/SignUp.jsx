@@ -1,7 +1,11 @@
+
+
+//NOTE:  make a form dynamic for sign up and sign in
+//NOTE: add button under form to toggle between sign up and sign in
+
 function SignUp() {
   return (
 <div className="fixed top-0 left-0 w-full h-full">
-
     <div className="grid grid-cols-2 sm:grid-cols-2 h-screen w-full">
       <div className="hidden sm:block">
         <img
