@@ -1,15 +1,13 @@
 import "./App.css";
-import HeaderView from "./components/Header/HeaderView";
-import React from 'react';
-import SliderComp from './components/slidercomp/SliderComp';
-
-
+import React from "react";
+import Categories from "./components/Categories";
+import Statistics from "./components/Statistics";
 
 function App() {
   return (
-    <div className="App">
-      <HeaderView />;
-      <SliderComp />
+    <div>
+      <Categories />
+      <Statistics />
     </div>
   );
 }
