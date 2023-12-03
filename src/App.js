@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
 
-      <HeaderView />;
-      <SliderComp />;
+      <HeaderView />
+      <SliderComp />
       <TimelineComp />
       <Categories />
       <Statistics />

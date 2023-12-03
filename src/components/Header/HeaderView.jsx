@@ -4,7 +4,7 @@ import HeaderTitle from "./HeaderTitle";
 
 function HeaderView() {
   return (
-    <div className="bg-color-primary h-screen">
+    <div className="bg-color-primary">
       <HeaderMenu />
       <HeaderTitle />
       <HeaderForm />
