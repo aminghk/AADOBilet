@@ -27,7 +27,7 @@ const SliderComp = () => {
   const visibleArr = [...arr.slice(firstVisibleIndex), ...arr.slice(0, firstVisibleIndex)].slice(0, visibleSlides);
 
   return (
-    <div className='relative h-full w-full mt-8'>
+    <div className='relative h-full w-full my-8'>
       <img className='absolute top-0 left-0 h-full w-full' src={bg} alt="" />
 
       <div className='w-full flex justify-center items-center gap-2'>
