@@ -3,7 +3,8 @@ import HeaderView from "./components/Header/HeaderView";
 import React from 'react';
 import SliderComp from './components/slidercomp/SliderComp';
 import TimelineComp from "./components/TimelineComp/TimelineComp";
-
+import Categories from "./components/Categories";
+import Statistics from "./components/Statistics";
 
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
       <HeaderView />;
       <SliderComp />;
       <TimelineComp />
+      <Categories />
+      <Statistics />
+
     </div>
   );
 }
