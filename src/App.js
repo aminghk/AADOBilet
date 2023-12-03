@@ -10,17 +10,13 @@ import Statistics from "./components/Statistics";
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      <HeaderView />
-      <SliderComp />
-=======
+
       <HeaderView />;
       <SliderComp />;
       <TimelineComp />
       <Categories />
       <Statistics />
 
->>>>>>> master
     </div>
   );
 }
